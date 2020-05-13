@@ -1,0 +1,95 @@
+body {
+  margin-top: 10%;
+  font-family: sans-serif;
+}
+.dlpd-root {
+  color: white;
+  background-color: #232323;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 300px;
+  height: 100%;
+  margin: auto;
+}
+.dlpd-root .initial-view {
+  height: 100%;
+}
+.dlpd-root .initial-view .display {
+  width: 100%;
+  height: 20%;
+  background-color: #2d2d2d;
+}
+.dlpd-root .initial-view .display input {
+  background-color: transparent;
+  width: 80%;
+  margin-left: 10%;
+  height: 100px;
+  border: none;
+  font-size: 200%;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.dlpd-root .initial-view .display input:focus {
+  outline: none;
+}
+.dlpd-root .initial-view .keypad {
+  height: 60%;
+}
+.dlpd-root .buttons {
+  width: 80%;
+  margin: 0 10%;
+  overflow: hidden;
+}
+.dlpd-root .buttons .button-spacer {
+  width: 20%;
+  margin: 5.5% 6.6%;
+  float: left;
+}
+.dlpd-root .buttons .button {
+  width: 20%;
+  height: 0;
+  padding-bottom: 20%;
+  margin: 5.5% 6.6%;
+  color: white;
+  float: left;
+  background-color: #2d2d2d;
+  border-radius: 100%;
+  text-align: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.dlpd-root .buttons .button.digit {
+  font-weight: 700;
+  font-size: 150%;
+}
+.dlpd-root .buttons .button.digit .sub-digit {
+  font-size: 50%;
+  font-weight: 300;
+}
+
+.reset {
+  display: flex;
+  margin: auto;
+  padding: 15px;
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+}
+
+.error {
+  text-align: center;
+  background-color: red;
+  color: white;
+  width: 42%;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.loading {
+  text-align: center;
+  margin-bottom: 15px;
+}
