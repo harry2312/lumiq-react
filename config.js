@@ -1,5 +1,5 @@
 module.exports = {
-  apiUrl: "http://localhost:3000/call-superhero",
+  apiUrl: "https://safe-sierra-41741.herokuapp.com",
   keysData: [
     { key: 1, data: "@.?" },
     { key: 2, data: "ABC" },
@@ -13,5 +13,5 @@ module.exports = {
     { key: "*", data: "send" },
     { key: 0, data: "Zero" },
     { key: "#", data: "space" },
-  ]
+  ],
 };
